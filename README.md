@@ -61,7 +61,7 @@ biblioteca/
 1. **Clone o repositório:**
 
 ```bash
-git clone 
+git clone https://github.com/Zeuzinn/sistema_biblioteca_python.git
 cd sistema-biblioteca-python
 ```
 
