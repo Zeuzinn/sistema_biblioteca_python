@@ -1,7 +1,8 @@
 import json
 import os
 
-DATA_DIR = 'data'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, 'data')
 
 def save_to_json(data, filename):
     os.makedirs(DATA_DIR, exist_ok= True)   # cria pasta se não existir
